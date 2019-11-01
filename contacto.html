@@ -19,10 +19,14 @@
 <body class="container col-12" id="contacto">
     <header id="encabezado-contacto">
         <h1>DOGGY SOCIAL</h1>
-        <p>Contactar con Doggy</p>
+        <div class="home">
+            <p class="col-10">Contactar con Doggy</p>
+             <a class="col-1" href="index.html">Home</a>
+        </div>
+        
     </header>
-    <section>
-        <article>
+    <section id="seccion-contacto">
+        <article id="articulo-contacto">
             <form action="index.html" method="POST" class="col-12" id="formulario-contacto">
                 <label for="email" >Email</label>
                 <br>
@@ -41,11 +45,21 @@
                 <br>
                 <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="col-12"></textarea>
                 <br>
-                <button type="submit" class="col-12 boton-enviar">Enviar</button>
+                <div class="botones col-12 col-xl-12">
+                    <button type="submit" class="col-12 col-xl-6 boton-enviar">Enviar</button>
+                    <button type="reset"class="col-12 col-xl-6 boton-borrar" >Borrar</button>
+                </div>
                  <input type="checkbox" name="confirmar" id="confirmar" value="Si"> Acepta los terminos y condiciones?
+                 
             </form>
 
         </article>
+        <footer id ="footer-contacto" class="col-12 col-xl-12">      
+            <a class="col-3" href="faq.html">F.A.Q</a>
+            <a class="col-3"href="contacto.html">Contacto</a>
+            <a class="col-3"href="contacto.html">Sobre nosotros</a>
+            <a class="col-3"href="contacto.html">© 2019 Derechos reservados</a>
+    </footer>
     </section>
 </body>
 
