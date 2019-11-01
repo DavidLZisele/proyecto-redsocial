@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,700&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contacto</title>
+</head>
+
+<body class="container col-12" id="contacto">
+    <header id="encabezado-contacto">
+        <h1>DOGGY SOCIAL</h1>
+        <p>Contactar con Doggy</p>
+    </header>
+    <section>
+        <article>
+            <form action="index.html" method="POST" class="col-12" id="formulario-contacto">
+                <label for="email" >Email</label>
+                <br>
+                <input type="text" name="email" class="col-12" placeholder="ejemplo@gmail.com">
+                <br>
+                <label for="caja">Asunto</label>
+                <br>  
+                <select name="caja" id="caja" class="col-12">
+                    <option value="ayuda">No entiendo como funciona, necesito ayuda</option>
+                    <option value="queja">Queja sobre el servicio</option>
+                    <option value="error">Algo no funciona bien en la pagina</option>
+                    <option value="otro">Otros</option>
+                </select>
+                <br>
+                <label for="mensaje">Mensaje</label>
+                <br>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="col-12"></textarea>
+                <br>
+                <button type="submit" class="col-12 boton-enviar">Enviar</button>
+                 <input type="checkbox" name="confirmar" id="confirmar" value="Si"> Acepta los terminos y condiciones?
+            </form>
+
+        </article>
+    </section>
+</body>
+
+</html>

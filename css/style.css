@@ -16,15 +16,16 @@
 #bloque-usuario a{
   display:block;
   color:white;
-  border: solid 1px white;
+  border: solid 1px transparent;
   border-radius: 100px;
   padding:5px;
   width: 60%;
   margin: 0 auto; 
   margin-bottom: 10px;
+  background: linear-gradient(to bottom, #ff5b00 0, #ff1e00 100%);
 }
 #bloque-usuario a:hover{
-  background-color: plum;
+  background: linear-gradient(to bottom,lightcoral 0, lightcoral 100%);
   text-decoration: none;
 }
 .index-imagen
@@ -79,6 +80,61 @@
 {
   color: plum;
 }
+#contacto 
+{
+  padding:0;
+}
+#encabezado-contacto
+{
+  background-color: mediumvioletred;
+  color:white;
+}
+#encabezado-contacto h1 
+{
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 15px;
+  
+}
+#encabezado-contacto p
+{
+  align-self: center;
+  text-align: left;
+  padding: 0 15px 7px;
+  background: #edf6f9;
+  color:black;
+  font-weight: bold;
+  border-top: solid 1px #eaeaea;
+}
+#formulario-contacto input, #formulario-contacto select, #mensaje
+{
+ padding: 5px 5px;
+ border: solid 1px #eaeaea;
+ border-radius: 5px;
+ margin-bottom: 5px;
+
+}
+.boton-enviar
+{
+  color:white;
+  padding: 5px 0;
+  background: linear-gradient(to bottom, #ff5b00 0, #ff1e00 100%);
+  border: solid 1px transparent;
+  border-radius: 100px;
+  margin-bottom: 6px;
+}
+.boton-enviar:hover
+{
+  background: linear-gradient(to bottom,lightcoral 0, lightcoral 100%);
+}
+#formulario-contacto input 
+{
+  margin: 0 0 5px 0;
+}
+#formulario-contacto label
+{
+  margin-bottom: 0;
+}
 @media (min-width:768px)
 {
   #footer-index a
@@ -93,6 +149,7 @@
     font-size: 1em;
   }
 }
+
 @media (min-width:1200px)
 {
   #index
@@ -120,5 +177,10 @@
   .bloque-index .fa
 {
   line-height: 45px;
+}
+#formulario-contacto
+{
+  width: 50%;
+  margin: 0 auto;
 }
 }
