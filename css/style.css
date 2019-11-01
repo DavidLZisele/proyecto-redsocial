@@ -1,31 +1,124 @@
-html,body {
-text-align: center;
-margin: 0;
-padding: 0;
-width: 100%;
-height: 100vh;
-display: flex;
-justify-content: center;
-align-items: center;
-font-family: sans-serif;
-}
-
-#container {
-
-}
-
-form {
-  width: 200px;
-  height: 200px;
-}
-
-h1 {
-  text-align: center;
-}
-
-
-
-@media (min-width: @screen-lg-min) { ... }
+#index
 {
+  padding:0;
+  font-size:15px;
+  font-family: Arial, Helvetica, sans-serif;
 
+}
+#encabezado-index
+{
+  background-color: mediumvioletred;
+  color:white;
+  text-align: center;
+  padding: 15px 0;
+  
+}
+#bloque-usuario a{
+  display:block;
+  color:white;
+  border: solid 1px white;
+  border-radius: 100px;
+  padding:5px;
+  width: 60%;
+  margin: 0 auto; 
+  margin-bottom: 10px;
+}
+#bloque-usuario a:hover{
+  background-color: plum;
+  text-decoration: none;
+}
+.index-imagen
+{
+  margin: 0 auto; 
+  width: 40%;
+}
+#section-index
+{
+  padding: 30px 20px;
+  background-color: aqua;
+  color:white;
+}
+.bloque-index
+{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.bloque-index .fa
+{
+  line-height: 25px;
+  text-align: end;
+}
+.articulo-index
+{
+  margin: 0 auto;
+  text-align: left;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#footer-index
+{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+#footer-index a
+{
+  display: block;
+  color:grey;
+  font-size: 0.6em;
+}
+.index-imagen p:hover
+{
+ display:block;
+}
+
+#footer-index a:hover
+{
+  color: plum;
+}
+@media (min-width:768px)
+{
+  #footer-index a
+  {
+    font-size: 0.8em;
+  }
+}
+@media (min-width:992px)
+{
+  #footer-index a
+  {
+    font-size: 1em;
+  }
+}
+@media (min-width:1200px)
+{
+  #index
+  {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #encabezado-index, #section-index
+  {
+    height: 93vh;
+  }
+  #footer-index 
+  {
+    height: 7vh;
+  }
+  .bloque-index:first-child
+  {
+    margin-top: 220px
+  }
+  .bloque-index
+  {
+    font-size:2em;
+  }
+  .bloque-index .fa
+{
+  line-height: 45px;
+}
 }
