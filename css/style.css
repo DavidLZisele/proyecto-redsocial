@@ -223,9 +223,14 @@
   width: 90px;
   height: 90px;
   position: absolute;
-  top:60px;
+  top:-45px;
+  left:50%;
+  -webkit-transform: translate(-50%, 0);
   text-align: center;
   line-height: 75px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
 .imagen-login svg
 {
@@ -289,5 +294,9 @@
   display:flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+.imagen-login
+{
+  top:60px;
 }
 }
