@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,700&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contacto</title>
+</head>
+
+<body class="container col-12" id="registro">
+    <header id="encabezado-registro">
+        <h1>DOGGY SOCIAL</h1>
+        <div class="home">
+            <p class="col-10">Registrarse en DOGGY</p>
+             <a class="col-1" href="index.html">Home</a>
+        </div>
+        
+    </header>
+    <section id="seccion-registro">
+        <article id="articulo-registro">
+            <form action="index.html" method="POST" class="col-12" id="formulario-registro">
+                <label for="nombre" >Nombre</label>
+                <br>
+                <input type="text" name="nombre" class="col-12" placeholder="Ingrese su nombre">
+                <label for="apellido" >Apellido</label>
+                <br>
+                <input type="text" name="apellido" class="col-12" placeholder="Ingrese su apellido">
+                <label for="tel" >Telefono</label>
+                <br>
+                <input type="text" name="tel" class="col-12" placeholder="Ingrese su telefono">
+                <label for="email" >Email</label>
+                <br>
+                <input type="text" name="email" class="col-12" placeholder="ejemplo@gmail.com">
+                <br>
+                <label for="sexo">Sexo</label>
+                <br>  
+                <select name="sexo" id="sexo" class="col-12">
+                    <option value="masc">Masculino</option>
+                    <option value="fem">Femenino </option>
+                    <option value="otro">Ocultar</option>
+                </select>
+                <br>
+                <div class="botones col-12 col-xl-12">
+                    <button type="submit" class="col-12 col-xl-6 boton-enviar">Enviar</button>
+                    <button type="reset"class="col-12 col-xl-6 boton-borrar" >Borrar</button>
+                </div>
+                 <input type="checkbox" name="confirmar2" id="confirmar2" value="Si"> Acepta los terminos y condiciones?
+                 
+            </form>
+
+        </article>
+        <footer id ="footer-registro" class="col-12 col-xl-12">      
+            <a class="col-3" href="faq.html">F.A.Q</a>
+            <a class="col-3"href="contacto.html">Contacto</a>
+            <a class="col-3"href="contacto.html">Sobre nosotros</a>
+            <a class="col-3"href="contacto.html">© 2019 Derechos reservados</a>
+    </footer>
+    </section>
+</body>
+
+</html>
