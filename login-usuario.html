@@ -7,20 +7,29 @@
     <title></title>
   </head>
   <body>
-    <div id="container">
-        <form>
-              <h1>sign Here</h1>
-              <label for="username">Username:</label>
-              <input type="text" id="username" name="username" placeholder="Enter Ussername"> <br>
-              <label for="password">Password:</label>
-              <input type="password" id="password" name="password" placeholder="Enter Password"> <br> <br>
-              <div id="lower">
-                              <input type="submit" value="Login">
-              </div><!--/ lower-->
-              <a href="#">forgot password?</a> <a href="#">sign up</a>
-
-        </form>
+    <div class="cuerpo">
+      <div id="container">
+          <form>
+                <h1>sign Here</h1>
+                <div class="user-pass">
+                              <div class="grupo">
+                                <label for="username">Username:</label>
+                                <input type="text" id="username" name="username" placeholder="Enter Ussername"> <br>
+                              </div>
+                              <div class="grupo">
+                                <label for="password">Password:</label>
+                                <input type="password" id="password" name="password" placeholder="Enter Password"> <br> <br>
+                              </div>
+                              <div class="grupo">
+                                <input class="boton" type="submit"  name="" value="Login">
+                              </div>
+                              <br>
+                              <div class="forgot">
+                                <a href="#forgot">Forgot Password?</a>
+                              </div>
+                </div>
+          </form>
+      </div>
     </div>
-
   </body>
 </html>

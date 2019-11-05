@@ -1,4 +1,8 @@
-html,body {
+
+/*--------------LOGIN-------------------*/
+
+
+.cuerpo {
 text-align: center;
 margin: 0;
 padding: 0;
@@ -8,10 +12,10 @@ display: flex;
 justify-content: center;
 align-items: center;
 font-family: sans-serif;
+background-color: violet;
 }
 
 #container {
-
 }
 
 form {
@@ -23,6 +27,69 @@ h1 {
   text-align: center;
 }
 
+.user-pass {
+      min-height:345px;
+    	transform-style:preserve-3d;
+}
+.user-pass .grupo,{
+  margin-bottom:15px;
+}
+.user-pass .grupo label,
+.user-pass .grupo .boton  {
+  width:100%;
+	color:#fff;
+	display:block;
+  text-align: left;
+}
+.user-pass .grupo input,
+.user-pass .grupo .boton  {
+  border:none;
+	padding:15px 20px;
+	border-radius:25px;
+	background:rgba(255,255,255,.1);
+}
+.user-pass .grupo .boton {
+  background: red;
+  text-align: center;
+}
+.user-pass .forgot a {
+  text-decoration: none;
+  color: white;
+
+}
+/*--------------FAQ-------------------*/
+.body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+header {
+background: black;
+height: 150px;
+}
+
+header h1 {
+  color:white;
+  margin: 0;
+  padding: 0;
+}
+
+.tronco {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background: gray;
+}
+
+.tronco .grupo h2 {
+background-color: orange;
+text-align: center;
+height: 100px;
+width: 200px;
+margin: 0;
+}
 
 
 @media (min-width: @screen-lg-min) { ... }
